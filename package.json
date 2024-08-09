@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/stack": "^6.4.0",
+    "axios": "^1.7.2",
+    "expo": "^51.0.26",
+    "expo-barcode-scanner": "^13.0.1",
+    "expo-camera": "~15.0.14",
+    "expo-font": "~12.0.9",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "^0.74.5",
+    "react-native-qrcode-svg": "^6.3.1",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.79"
+  },
+  "private": true
+}
